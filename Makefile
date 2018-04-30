@@ -12,7 +12,6 @@ help:
 	@echo "sdist - package"
 
 init:
-	pip install pipenv --upgrade
 	pipenv install --dev --skip-lock
 	pipenv install -r requirements_dev.txt
 
