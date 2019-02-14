@@ -1,112 +1,42 @@
-.. highlight:: shell
+# Contributing
 
-============
-Contributing
-============
+Contributions are welcome, and they are greatly appreciated!
 
-Contributions are welcome, and they are greatly appreciated! Every
-little bit helps, and credit will always be given.
+Every little bit helps, and credit will always be given.
 
-You can contribute in many ways:
+## Types of Contributions
 
-Types of Contributions
-----------------------
+### Bug Reports, Feature Requests, and Feedback
 
-Report Bugs
-~~~~~~~~~~~
-
-Report bugs at https://github.com/moodule/haunted-moodule/issues.
+Create a [new project issue][issue-link]! Try to be as descriptive as possible.
 
 If you are reporting a bug, please include:
-
 * Your operating system name and version.
 * Any details about your local setup that might be helpful in troubleshooting.
 * Detailed steps to reproduce the bug.
 
-Fix Bugs
-~~~~~~~~
+### Bug Fixes, New Features and Documentation
 
-Look through the GitHub issues for bugs. Anything tagged with "bug"
-and "help wanted" is open to whoever wants to implement it.
+Create a [new merge/pull request][merge-link]! Make sure to follow the guidelines.
 
-Implement Features
-~~~~~~~~~~~~~~~~~~
+Look through the GitHub issues for features, bugs and other requests.
+Anything tagged with "help wanted" is open to whoever wants to implement it.
 
-Look through the GitHub issues for features. Anything tagged with "enhancement"
-and "help wanted" is open to whoever wants to implement it.
-
-Write Documentation
-~~~~~~~~~~~~~~~~~~~
-
-Haunted Moodule could always use more documentation, whether as part of the
-official Haunted Moodule docs, in docstrings, or even on the web in blog posts,
-articles, and such.
-
-Submit Feedback
-~~~~~~~~~~~~~~~
-
-The best way to send feedback is to file an issue at https://github.com/moodule/haunted-moodule/issues.
-
-If you are proposing a feature:
-
-* Explain in detail how it would work.
-* Keep the scope as narrow as possible, to make it easier to implement.
-* Remember that this is a volunteer-driven project, and that contributions
-  are welcome :)
-
-Get Started!
-------------
-
-Ready to contribute? Here's how to set up `haunted-moodule` for local development.
-
-1. Fork the `haunted-moodule` repo on GitHub.
-2. Clone your fork locally::
-
-    $ git clone git@github.com:your_name_here/haunted-moodule.git
-
-3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
-
-    $ mkvirtualenv haunted-moodule
-    $ cd haunted-moodule/
-    $ python setup.py develop
-
-4. Create a branch for local development::
-
-    $ git checkout -b name-of-your-bugfix-or-feature
-
-   Now you can make your changes locally.
-
-5. When you're done making changes, check that your changes pass flake8 and the tests, including testing other Python versions with tox::
-
-    $ flake8 haunted-moodule tests
-    $ python setup.py test or py.test
-    $ tox
-
-   To get flake8 and tox, just pip install them into your virtualenv.
-
-6. Commit your changes and push your branch to GitHub::
-
-    $ git add .
-    $ git commit -m "Your detailed description of your changes."
-    $ git push origin name-of-your-bugfix-or-feature
-
-7. Submit a pull request through the GitHub website.
-
-Pull Request Guidelines
------------------------
+## Merge/Pull Request Guidelines
 
 Before you submit a pull request, check that it meets these guidelines:
+1. Make sure to have atomic commits and contextual commit messages!
+  [Check out this awesome blog post by Chris Beams for more information.][chris-beams]
+2. The pull request should include tests.
+3. If the pull request adds functionality, the docs should be updated:
+  1. Put your new functionality into a function with a docstring
+  2. Add the feature to the list in README.md.
 
-1. The pull request should include tests.
-2. If the pull request adds functionality, the docs should be updated. Put
-   your new functionality into a function with a docstring, and add the
-   feature to the list in README.rst.
-3. The pull request should work for Python 2.6, 2.7, 3.3, 3.4 and 3.5, and for PyPy. Check
-   https://travis-ci.org/moodule/haunted-moodule/pull_requests
-   and make sure that the tests pass for all supported Python versions.
+## Code of Conduct
 
-Tips
-----
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
+By participating in this project you agree to abide by its terms.
 
-To run a subset of tests::
-    $ py.test tests.test_haunted-moodule
+[issue-link]: https://github.com/moodule/haunted-moodule/issues/new
+[merge-link]: https://github.com/moodule/haunted-moodule/compare
+[chris-beams]: http://chris.beams.io/posts/git-commit/

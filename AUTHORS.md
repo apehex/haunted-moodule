@@ -1,13 +1,9 @@
-=======
-Credits
-=======
+# Authors
 
-Development Lead
-----------------
+## Core Contributor
 
-* David Mougeolle <david.mougeolle@moodule.net>
+[David Mougeolle](https://github.com/moodule) &lt;david.mougeolle@moodule.net&gt;
 
-Contributors
-------------
+## Contributors
 
-None yet. Why not be the first?
+None yet. [Why not be the first?](CONTRIBUTING.md)
