@@ -1,6 +1,6 @@
 # Haunted Moodule
 
-> :angry: Turn all the good, the bad and the uglies on the robbers!
+> Turn all the good, the bad and the uglies on the robbers! :spider_web:
 
 Have a whole network of bounty hunters track and find back your valuables.
 
